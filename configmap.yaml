@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: spring-config
+data:
+  # The name of the application. This value is injected into the Spring Boot
+  # application via the APP_NAME environment variable.
+  APP_NAME: "MySpringBootApp"
+  # The environment in which the application is running (e.g., prod, dev).
+  APP_ENV: "prod"

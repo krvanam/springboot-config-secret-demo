@@ -1,0 +1,24 @@
+# Maven
+target/
+*.log
+
+# Mac
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Backup files
+*_bkp*
+*latest*
+*.tmp
+
+# Build artifacts
+*.jar
+*.war
+*.class
+
+# OCI / Docker
+.env
